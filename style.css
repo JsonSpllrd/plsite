@@ -1,5 +1,6 @@
 body {
     font-family: Arial;
+    background-color: #90ADC6;
 }
 p {
     margin: 0;
@@ -13,7 +14,7 @@ a {
     top: 0;
     right: 0;
     left: 0;
-    height: 60px;
+    height: 100px;
     padding-left: 50px;
     padding-right: 50px;
     justify-content: space-between;
@@ -23,60 +24,53 @@ a {
 .head .name {
     color: #FAD02C;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 38px;
     cursor: pointer;
 }
 .buttons button {
     background-color: #90ADC6;
     border: none;
     cursor: pointer;
-    padding: 6px 12px;
+    padding: 8px 32px;
     font-weight: bold;
     border-radius: 8px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 24px;
     transition: all 0.25s;
 }
 .buttons button:hover {
-    padding: 6px 20px;
-    margin-right: 2px;
-    margin-left: 2px;
+    padding: 8px 46px;
+    margin-right: 6px;
+    margin-left: 6px;
     background-color: #FAD02C;
-}
-.background {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: #E9EAEC;
-    z-index: -9999;
 }
 .uppersection {
     position: absolute;
-    top: 150px;
+    top: 180px;
     left: 50px;
     display: flex;
     align-items: center;
     z-index: -1;
 }
 .left {
-    width: 600px;
+    width: 800px;
 }
 .pl-name {
     color: #181f34;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 88px;
     margin-bottom: 10px;
 }
 .uppersection .description {
     font-size: 20px;
+    font-weight: bold;
 }
 .right {
     flex: 1;
 }
 .right button {
-    background-color: #90ADC6;
+    background-color: #FAD02C;
     border: none;
     font-size: 34px;
     padding: 20px 80px;
@@ -89,20 +83,21 @@ a {
 .right button:hover {
     background-color: #333652;
     color: #FAD02C;
+
 }
 .section-author {
     position: absolute;
-    top: 250px;
+    top: 320px;
     left: 0;
     right: 0;
     z-index: -2;
 }
 .middlesection {
     position: absolute;
-    top: 350px;
+    top: 450px;
     left: 30px;
     right: 30px;
-    height: 200px;
+    height: 300px;
     box-shadow: 0 0 15px #333652;
     background-color: #181f34;
     border-radius: 20px;
@@ -110,6 +105,7 @@ a {
 }
 .middlesection h3 {
     color: #FAD02C;
+    font-size: 38px;
 }
 .flex-member {
     display: flex;
@@ -119,30 +115,31 @@ a {
 .member-info {
     display: grid;
     place-items: center;
-    width: 200px;
+    width: 230px;
 }
 .member {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     cursor: pointer;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 .mem-name {
     font-weight: bold;
     font-style: oblique;
     color: #FAD02C;
+    font-size: 20px;
 }
 .section-inspire {
     position: absolute;
-    top: 570px;
+    top: 730px;
 
 }
 .lowersection {
     position: absolute;
-    top: 660px;
+    top: 850px;
     left: 30px;
     right: 30px;
-    height: 1200px;
+    height: 1300px;
     box-shadow: 0 0 15px #333652;
     background-color: #181f34;
     border-radius: 20px;
@@ -151,6 +148,7 @@ a {
 .lowersection h3 {
     color: #FAD02C;
     margin-top: 30px;
+    font-size: 38px;
 }
 .grid {
     display: grid;
@@ -160,18 +158,18 @@ a {
     margin-top: 50px;
 }
 .boxes {
-    height: 250px;
-    width: 420px;
+    height: 260px;
+    width: 630px;
     box-shadow: 0 0 3px #90ADC6;
     background-color: #E9EAEC;
     border-radius: 10px;
 }
 .foot {
     position: absolute;
-    top: 1900px;
+    top: 2200px;
     left: 0;
     right: 0;
-    height: 80px;
+    height: 100px;
     background-color: #181f34;
 }
 .foot p {
@@ -182,8 +180,8 @@ a {
 }
 .foot .name {
     font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 36px;
+    margin: 10px 0;
 }
 .foot .description {
     font-size: 20px;
