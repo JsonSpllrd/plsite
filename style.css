@@ -54,38 +54,40 @@ a {
     z-index: -1;
 }
 .left {
-    width: 50rem;
+    width: 40rem;
 }
 .pl-name {
     color: #181f34;
     font-weight: 600;
-    font-size: 4.375rem;
+    font-size: 8.5rem;
     margin-bottom: 0.625;
     margin-bottom: 1rem;
 }
 .uppersection .description {
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 .right {
+    padding-left: 10rem;
     flex: 1;
 }
 .right button {
     background-color: #FAD02C;
     border: none;
     font-size: 2.125rem;
-    padding: 1.25rem 5rem;
+    padding: 2.5rem 10rem;
     margin: 0 1.25rem;
-    border-radius: 2.5rem;
+    border-radius: 5rem;
     font-weight: bold;
     cursor: pointer;
-    transition: all 0.25s;
+    transition: all 0.5s;
 }
 .right button:hover {
     background-color: #333652;
     color: #FAD02C;
-    padding: 2.5rem 10rem;
-    border-radius: 5rem;
+    font-size: 5rem;
+    padding: 3.75rem 15rem;
+    border-radius: 7.5rem;
 }
 .section-author {
     position: absolute;
