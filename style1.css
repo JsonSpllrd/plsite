@@ -143,7 +143,7 @@ a {
     top: 60rem;
     left: 1.875rem;
     right: 1.875rem;
-    height: 77rem;
+    height: 75rem;
     box-shadow: 0 0 15px #333652;
     background-color: #333652;
     border-radius: 1.25rem;
@@ -157,18 +157,19 @@ a {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 1.57rem;
-    column-gap: 1.57rem;
-    margin-top: 3.125rem;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    margin-top: 3rem;
     padding: 0 2rem;
 }
 .boxes {
-    height: 15.625rem;
+    height: 13rem;
     box-shadow: 0 0 3px #90ADC6;
     background-color: #E9EAEC;
-    border-radius: 0.63rem;
+    border-radius: 10px;
+    padding: 10px;
 }
-.foot {
+.foot1 {
     position: absolute;
     top: 140rem;
     left: 0;
@@ -179,15 +180,13 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.foot p {
     color: #FAD02C;
 }
-.foot .name {
+.foot1 .name , .foot2 .name{
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 0.625rem;
 }
-.foot .description {
-    font-size: 1.25rem;
+.foot1 .description, .foot2 .description {
+    font-size: 1.5rem;
 }
