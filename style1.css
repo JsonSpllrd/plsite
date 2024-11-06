@@ -182,11 +182,11 @@ a {
     justify-content: center;
     color: #FAD02C;
 }
-.foot1 .name , .foot2 .name{
+.foot1 .name , .foot2 .name , .foot3 .name{
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 0.625rem;
 }
-.foot1 .description, .foot2 .description {
+.foot1 .description, .foot2 .description  , .foot3 .description{
     font-size: 1.5rem;
 }
